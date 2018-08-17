@@ -95,6 +95,7 @@ class Survey():
         element = driver.find_element_by_id("sbi_file_upload")
         element.send_keys('/Path/to/file.jpeg')
         driver.find_element_by_css_selector('div#sbi_sb_ipt span[name=go]').click()
+        
 
 
 
