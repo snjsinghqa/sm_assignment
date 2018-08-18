@@ -1,5 +1,4 @@
 import time
-import autoit
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
@@ -9,7 +8,8 @@ class Survey():
 
     driverLocation = '/Users/Documents/PycharmProjects/drivers/chromedriver'
     driver = webdriver.Chrome(driverLocation)
-    base_url = "https://www.monkeytest1.com/"
+    # base_url = "https://www.monkeytest1.com/"
+    base_url = "https://www.surveymonkey.com/"
     ac = ActionChains(driver)
 
 # ------------------Driver Section-----------------------------------
@@ -42,20 +42,15 @@ class Survey():
 
 
 
-        driver.find_element(By.XPATH,login_link).click()
-        driver.find_element(By.ID, user_name).send_keys("qa.user")
-        driver.find_element(By.ID,user_password).send_keys("Pass_123")
+        driver.find_element(By.XPATH, login_link).click()
+        driver.find_element(By.ID, user_name).send_keys("snjsingh")
+        driver.find_element(By.ID, user_password).send_keys("Pass_123")
         driver.find_element(By.XPATH, login_button).click()
         home = driver.find_element(By.ID, home_page)
         log_varify = home.is_displayed()
         assert log_varify == True
 
         driver.find_element(By.XPATH, move_to_survey_page_btn).click()
-
-        survey_for_scratch_url = "https://www.www.monkeytest1.com/create/?ut_source=header"
-        survey_dir_url = "https://www.monkeytest1.com/create/?ut_source=header"
-        current_page_url = driver.current_url
-
         try:
             survey_scratch_ele = driver.find_element(By.ID, create_from_scratch)
             survey_scratch_option = survey_scratch_ele.is_displayed()
@@ -85,21 +80,28 @@ class Survey():
         from_pc = "//a[@tab-target='from-computer']"
         from_lib = "//a[@tab-target='from-library']"
         import_link = "//span[@class = 'qq-upload-button-selector browse-for-file import-link']"
-        time.sleep(2)
+        ques_bank = "//li[@title='Question Bank']"
+        builder = "//li[@title='Builder']"
+        builder = "//li[@title='Themes']"
+        builder = "//li[@title='Logic']"
+        builder = "//li[@title='Options']"
+        title_container = "//div[@class = 'survey-title-table-wrapper']"
+        print(title_container)
 
-        driver.find_element(By.XPATH, logo_btn).click()
-        time.sleep(2)
-        btn = driver.find_element(By.XPATH, import_link)
-        btn.click()
-        time.sleep(2)
-        element = driver.find_element_by_id("sbi_file_upload")
-        element.send_keys('/Path/to/file.jpeg')
-        driver.find_element_by_css_selector('div#sbi_sb_ipt span[name=go]').click()
+        time.sleep(3)
+        title_con = driver.find_element(By.XPATH, title_container)
+        print(title_con)
+        title_con.click()
+        # time.sleep(1)
+        # ac.click(title_con)
+        # title_con.click()
+        time.sleep(5)
+        e_survey_title = "surveyTitle"
+        e_survey_title_field = driver.find_element(By.ID, e_survey_title)
+        e_survey_title_field.clear()
+        e_survey_title_field.send_keys("My Demo")
+        time.sleep(3)
         
-
-
-
-
     def close(self,driver):
         driver.quit()
 
