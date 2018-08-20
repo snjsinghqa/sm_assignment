@@ -1,13 +1,13 @@
 from base.BasePage import BasePage
 
 
-class Create_Survey_Page(BasePage):
+class CreateSurveyPage(BasePage):
 
         def __init__(self, driver):
             super().__init__(driver)
             self.driver = driver
 
-        #  Locators
+        #  Locators ------------------------------------
         move_to_survey_page_btn = "//a[@class='create-survey alt btn SL_split']"
         survey_title = "surveyTitle"
         survey_category = "//div[contains(text(),'Survey category')]"
@@ -38,20 +38,20 @@ class Create_Survey_Page(BasePage):
         # Setter Mehods ----------------------------------
 
         def set_survey_title(self, surveytitle):
-            self.set_sendkeys(surveytitle, self.survey_title)
+            self.set_send_keys(surveytitle, self.survey_title)
 
         def set_survey_category(self, surveycategory):
             self.set_dropdown_value(surveycategory, self.survey_category, "xpath")
 
         def set_mwindow_survey_title(self, mw_survey_title):
-            self.set_sendkeys(mw_survey_title, self.mwindow_survey_title, "xpath")
+            self.set_send_keys(mw_survey_title, self.mwindow_survey_title, "xpath")
 
         def set_mwindow_survey_category(self, mw_survey_category):
             self.set_dropdown_value(mw_survey_category, self.mwindow_survey_category, "xpath")
 
         # Actions Method ----------------------------------
 
-        def survey_from_scratch(self, survey_title, survey_category):
+        def create_survey(self, survey_title, survey_category):
             self.click_move_to_survey_page_btn()
             result = self.is_elementpresent(self.create_from_scratch)
             if result == True:
@@ -61,6 +61,8 @@ class Create_Survey_Page(BasePage):
                 self.wait_until_element_to_be_clickable(self.mwindow_survey_category, "xpath")
                 self.set_mwindow_survey_category(survey_category)
                 self.click_mwindow_create_survey_btn()
+                url = self.get_current_url()
+                return url
             else:
                 self.click_move_to_survey_page_btn()
                 self.wait_until_element_to_be_clickable(self.survey_title)
@@ -68,27 +70,5 @@ class Create_Survey_Page(BasePage):
                 self.wait_until_element_to_be_clickable(self.survey_category, "xpath")
                 self.set_survey_category(survey_category)
                 self.click_mwindow_create_survey_btn()
-
-        def survey(self, survey_title, survey_category):
-            self.click_move_to_survey_page_btn()
-            self.wait_until_element_to_be_clickable(self.survey_title)
-            self.set_survey_title(survey_title)
-            self.wait_until_element_to_be_clickable(self.survey_category, "xpath")
-            self.set_survey_category(survey_category)
-            self.click_mwindow_create_survey_btn()
-
-        def create_survey(self, survey_title, survey_category):
-            self.click_move_to_survey_page_btn()
-
-            try:
-                self.survey_from_scratch(survey_title, survey_category)
-            except:
-                self.survey(survey_title, survey_category)
-                pass
-
-
-
-
-
-
-
+                url = self.get_current_url()
+                return url

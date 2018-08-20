@@ -1,4 +1,4 @@
-from pages.LoginPage import LoginPage
+from pages.login_page import LoginPage
 import unittest
 import pytest
 from ddt import ddt, data, unpack

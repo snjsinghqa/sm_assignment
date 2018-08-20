@@ -1,5 +1,5 @@
-from pages.DashBoard import DashBoard
-from pages.LoginPage import LoginPage
+from pages.dash_board_page import DashBoard
+from pages.login_page import LoginPage
 import pytest
 import unittest
 from ddt import ddt, data, unpack
