@@ -1,6 +1,6 @@
 import unittest
-from tests_Cases.Login_test import LoginTests
-from tests_Cases.SignOut_test import SignOutTests
+from tests_Cases.test_login import LoginTests
+from tests_Cases.test_signout import SignOutTests
 
 # Get all tests from the test classes
 tc1 = unittest.TestLoader().loadTestsFromTestCase(LoginTests)

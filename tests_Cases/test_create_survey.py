@@ -22,7 +22,7 @@ class LoginTests(unittest.TestCase):
     @pytest.mark.run(order=4)
     @data(*getCSVData("/Users/Documents/PycharmProjects/SurveyMonkey/source/Login_test_codex.csv"))
     @unpack
-    def test_valid_user_credentials(self, user_name, password):
+    def test_create_survey(self, user_name, password):
         self.log_p.user_login(user_name, password)
         self.c_survey_p.create_survey("Demo", "Other")
         url = self.c_survey_p.get_current_url()
