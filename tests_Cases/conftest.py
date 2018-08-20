@@ -14,7 +14,8 @@ def one_time_setup(browser, request):
     print("One time class level setup..")
 
     if browser == 'chrome':
-        base_url = "https://www.monkeytest1.com/"
+        # base_url = "https://www.monkeytest1.com/"
+        base_url = "https://www.surveymonkey.com/"
         driver_location = '/Users/Documents/PycharmProjects/drivers/chromedriver'
         driver = webdriver.Chrome(driver_location)
         driver.maximize_window()
