@@ -83,7 +83,7 @@ class SurveyDesignPage(BasePage):
             self.set_send_keys(title, self.e_survey_title)
 
         def set_ecategory(self, visible_text):
-            self.select_by_visible_text(visible_text, self.e_survey_category, "xpath")
+            self.select_by_visible_text(visible_text, self.e_survey_category)
 
         def set_question(self, question):
             self.set_send_keys(question, self.question, "xpath")

@@ -121,5 +121,5 @@ class BasePage:
         element.select_by_value(value_name)
 
     def select_by_visible_text(self, visible_text, locator, locator_type = 'id'):
-        element = Select(self.get_element(locator, locator_type))
+        element = Select(self.wait_until_element_located(locator, locator_type))
         element.select_by_visible_text(visible_text)
