@@ -1,1 +1,0 @@
-{"people": [{"Name": "Sanjay", "Department": "QA", "From": "Indore"}, {"Name": "Mohit", "Department": "Dev", "From": "Bhopal"}, {"Name": "Rohit", "Department": "Admin", "From": "Delhi"}, {"Name": "Jackson", "Department": "Tech", "From": "USA"}, {"Name": "John", "Department": "Support Team", "From": "UK"}]}
