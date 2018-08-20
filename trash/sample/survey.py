@@ -12,8 +12,8 @@ class Survey():
 
     driverLocation = '/Users/Documents/PycharmProjects/drivers/chromedriver'
     driver = webdriver.Chrome(driverLocation)
-    base_url = "https://www.monkeytest1.com/"
-    # base_url = "https://www.surveymonkey.com/"
+    # base_url = "https://www.monkeytest1.com/"
+    base_url = "https://www.surveymonkey.com/"
     ac = ActionChains(driver)
     wait = WebDriverWait(driver, 10)
 
@@ -44,7 +44,7 @@ class Survey():
         mwindow_create_survey_btn = "//div/button[contains(text(),'CREATE SURVEY')]"
 
         driver.find_element(By.XPATH, login_link).click()
-        driver.find_element(By.ID, user_name).send_keys("qa.user")
+        driver.find_element(By.ID, user_name).send_keys("snjsingh")
         driver.find_element(By.ID, user_password).send_keys("Pass_123")
         driver.find_element(By.XPATH, login_button).click()
 
@@ -108,8 +108,12 @@ class Survey():
         e_survey_title_field.clear()
         e_survey_title_field.send_keys("My Demo")
         time.sleep(3)
-        select_category = Select(driver.find_element(By.ID, e_survey_category))
-        select_category.select_by_index(14)
+        # select_category = Select(driver.find_element(By.ID, e_survey_category))
+        # select_category.select_by_index(14)
+
+        element = Select(driver.find_element(By.ID, e_survey_category))
+        element.select_by_visible_text("Events")
+
         time.sleep(2)
         driver.find_element(By.XPATH, e_survey_save).click()
         time.sleep(2)

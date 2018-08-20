@@ -20,7 +20,8 @@ def one_time_setup(browser, request):
         driver = webdriver.Chrome(driver_location)
         driver.maximize_window()
     else:
-        base_url = "https://www.monkeytest1.com/"
+        # base_url = "https://www.monkeytest1.com/"
+        base_url = "https://www.surveymonkey.com/"
         driver_location = '/Users/Documents/PycharmProjects/drivers/chromedriver'
         driver = webdriver.Chrome(driver_location)
         driver.maximize_window()

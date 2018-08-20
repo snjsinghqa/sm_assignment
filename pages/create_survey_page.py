@@ -61,8 +61,6 @@ class CreateSurveyPage(BasePage):
                 self.wait_until_element_to_be_clickable(self.mwindow_survey_category, "xpath")
                 self.set_mwindow_survey_category(survey_category)
                 self.click_mwindow_create_survey_btn()
-                url = self.get_current_url()
-                return url
             else:
                 self.click_move_to_survey_page_btn()
                 self.wait_until_element_to_be_clickable(self.survey_title)
@@ -70,5 +68,3 @@ class CreateSurveyPage(BasePage):
                 self.wait_until_element_to_be_clickable(self.survey_category, "xpath")
                 self.set_survey_category(survey_category)
                 self.click_mwindow_create_survey_btn()
-                url = self.get_current_url()
-                return url

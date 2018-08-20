@@ -1,13 +1,3 @@
 [
-  "tests_Cases/test_Suite.py::LoginTests::test_invalid_user_credentials_1___mohit____Pass_123__",
-  "tests_Cases/test_login.py::LoginTests::test_invalid_user_credentials_1___mohit____Pass_123__",
-  "tests_Cases/test_Suite.py::LoginTests::test_LoginWithOutUsername_1__None___Pass_123__",
-  "tests_Cases/test_login.py::LoginTests::test_LoginWithOutUsername_1__None___Pass_123__",
-  "tests_Cases/test_Suite.py::LoginTests::test_login_without_password_1___qa_user___None_",
-  "tests_Cases/test_login.py::LoginTests::test_login_without_password_1___qa_user___None_",
-  "tests_Cases/test_Suite.py::LoginTests::test_valid_user_credentials_1___qa_user____Pass_123__",
-  "tests_Cases/test_create_survey.py::LoginTests::test_valid_user_credentials_1___qa_user____Pass_123__",
-  "tests_Cases/test_login.py::LoginTests::test_valid_user_credentials_1___qa_user____Pass_123__",
-  "tests_Cases/test_Suite.py::SignOutTests::test_sign_out_case_1___qa_user____Pass_123__",
-  "tests_Cases/test_signout.py::SignOutTests::test_sign_out_case_1___qa_user____Pass_123__"
+  "tests_Cases/test_create_survey.py::LoginTests::test_create_survey_1___snjsingh____Pass_123__"
 ]
