@@ -25,19 +25,19 @@ class SignUpPage(BasePage):
 
         # Setter Mehods ----------------------------------
         def set_username(self, username):
-            self.set_sendkeys(username, self.user_name)
+            self.set_send_keys(username, self.user_name)
 
         def set_userpassword(self, password):
-            self.set_sendkeys(password, self.user_password)
+            self.set_send_keys(password, self.user_password)
 
         def set_useremail(self, email):
-            self.set_sendkeys(email, self.user_email)
+            self.set_send_keys(email, self.user_email)
 
         def set_userfirst_name(self, fname):
-            self.set_sendkeys(fname, self.user_firstname)
+            self.set_send_keys(fname, self.user_firstname)
 
         def set_userlast_name(self, lname):
-            self.set_sendkeys(lname, self.user_lastname)
+            self.set_send_keys(lname, self.user_lastname)
 
         # Actions Method ----------------------------------
         def user_signup(self, username, password, email, fname, lname):

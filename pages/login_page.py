@@ -31,10 +31,10 @@ class LoginPage(BasePage):
         # Setter Mehods ----------------------------------
 
         def set_username(self, username):
-            self.set_sendkeys(username, self.user_name)
+            self.set_send_keys(username, self.user_name)
 
         def set_userpassword(self, password):
-            self.set_sendkeys(password, self.user_password)
+            self.set_send_keys(password, self.user_password)
 
         # Actions Method ----------------------------------
 
