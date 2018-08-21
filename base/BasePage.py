@@ -123,3 +123,15 @@ class BasePage:
     def select_by_visible_text(self, visible_text, locator, locator_type = 'id'):
         element = Select(self.wait_until_element_located(locator, locator_type))
         element.select_by_visible_text(visible_text)
+
+    def set_inputvalue_by_action(self, input_data, locator, locator_type = 'id' ):
+        ac = ActionChains(self.driver)
+        ac.move_to_element(self.wait_until_element_located(locator, locator_type)).send_keys(input_data)
+
+    def hover_on_element(self, locator, locator_type = 'id' ):
+        ac = ActionChains(self.driver)
+        ac.move_to_element(self.wait_until_element_located(locator, locator_type)).perform()
+
+    def set_multi_options(self, input_data, locator, locator_type = 'id'):
+        ac = ActionChains(self.driver)
+        ac.click(self.get_element(locator, locator_type)).send_keys(input_data, Keys.TAB).perform()

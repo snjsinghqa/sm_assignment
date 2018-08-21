@@ -16,6 +16,14 @@ class DashBoard(BasePage):
     contact_submenu = "//li[@id='dd-my-account']/ul/li[3]/a[contains(text(),'Contacts')]"
     signout_submenu = "//*[@id='dd-my-account']/ul/li[5]/a"
 
+    # Survey List-------------------------------------------------
+
+    survey_list = "//div[@class='dw-container survey-list']"
+    first_survey = "//ul[@class='survey-items-list']/li[1]"
+    edit_options = "//*[@id='row_3']/div/div/div[2]/ul/li[1]/div/ul[2]/div[1]/li[1]/div[2]/a/div[2]"
+
+
+
     # Validate ---------------------------------------
     login_link = "//li/a[contains(text(),'LOG IN')]"
 
@@ -34,6 +42,13 @@ class DashBoard(BasePage):
 
     def click_signout_submenu(self):
         self.element_click(self.signout_submenu, "xpath")
+
+    def click_edit_option(self):
+        self.element_click(self.edit_options, "xpath")
+
+    # Move to Method ----------------------------------
+    def move_to_firstsurvey(self):
+        self.hover_on_element(self.first_survey, "xpath")
 
     # Actions Method ----------------------------------
     def signout_account(self):
