@@ -35,11 +35,11 @@ class LoginTests(unittest.TestCase):
         self.c_survey_design.add_question_with_date_option(question3)
         self.c_survey_design.add_question_with_rating_option(question4)
         self.c_survey_design.add_question_with_drop_by_selected_vale_option(question5, q5_visible_text)
-        self.c_survey_design.add_question_with_checkboxes_option(question6, q6_value1, q6_value2, q6_value3, q6_value4, q6_value5)
-        self.c_survey_design.add_question_with_matrix_rating_option(question7, q7_value1, q7_value2, q7_value3, q7_column1, q7_column2, q7_column3, q7_column4)
+        self.c_survey_design.add_question_with_checkboxes_option(question6, q6_value1,
+                                                                 q6_value2, q6_value3, q6_value4, q6_value5)
+        self.c_survey_design.add_question_with_matrix_rating_option(question7, q7_value1, q7_value2, q7_value3,
+                                                                    q7_column1, q7_column2, q7_column3, q7_column4)
         self.c_survey_design.add_question_with_multi_textbox_option(question8, q8_label1, q8_label2, q8_label3)
         self.c_survey_design.add_question_with_radio_option(question9, q9_visible_text)
         self.c_survey_design.add_question_with_text_area_option(question10)
         self.c_survey_design.previewsurvey()
-
-
