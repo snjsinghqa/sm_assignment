@@ -1,12 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="817e0bad-a1ef-464d-a57f-096044962e22" name="Default" comment="update method name">
+    <list default="true" id="6420357b-166b-4b54-b8c3-9f6cf7b97c9a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/utillities/custom_logger.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/lastfailed" beforeDir="false" afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/lastfailed" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pytest_cache/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/webdriver_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/webdriver_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/create_survey_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/create_survey_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/dash_board_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/dash_board_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/design_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/design_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests_Cases/test_create_survey.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests_Cases/test_create_survey.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/signup_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/signup_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/Login_test_codex.csv" beforeDir="false" afterPath="$PROJECT_DIR$/source/Login_test_codex.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests_Cases/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests_Cases/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests_Cases/hybrid_test_case/test_Suite.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests_Cases/hybrid_test_case/test_Suite.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests_Cases/hybrid_test_case/test_create_survey.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests_Cases/hybrid_test_case/test_create_survey.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests_Cases/pytest_test_cases/test_create_survey.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests_Cases/pytest_test_cases/test_create_survey.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests_Cases/pytest_test_cases/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests_Cases/pytest_test_cases/test_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests_Cases/pytest_test_cases/test_signout.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests_Cases/pytest_test_cases/test_signout.py" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,57 +39,62 @@
     <session id="261560409">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="24" />
-          <entry key="project.open.time.1" value="5" />
+          <entry key="project.closed" value="30" />
+          <entry key="project.open.time.1" value="6" />
           <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.106" value="1" />
           <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.114" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.206" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.30" value="5" />
+          <entry key="project.open.time.30" value="6" />
+          <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.35" value="2" />
           <entry key="project.open.time.36" value="1" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.57" value="1" />
+          <entry key="project.open.time.62" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="25" />
+          <entry key="project.opened" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="6" />
-          <entry key="csv" value="78" />
-          <entry key="dummy" value="57" />
-          <entry key="py" value="16243" />
-          <entry key="txt" value="28" />
+          <entry key="csv" value="108" />
+          <entry key="dummy" value="62" />
+          <entry key="py" value="20223" />
+          <entry key="txt" value="191" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSV" value="64" />
-          <entry key="PLAIN_TEXT" value="99" />
-          <entry key="Python" value="16249" />
+          <entry key="CSV" value="94" />
+          <entry key="PLAIN_TEXT" value="267" />
+          <entry key="Python" value="20229" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="1" />
-          <entry key="csv" value="9" />
+          <entry key="csv" value="13" />
           <entry key="pth" value="1" />
-          <entry key="py" value="110" />
+          <entry key="py" value="161" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="1" />
-          <entry key="CSV" value="7" />
-          <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="110" />
+          <entry key="CSV" value="10" />
+          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="Python" value="161" />
         </counts>
       </usages-collector>
     </session>
@@ -83,26 +102,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trash/sample/survey.py">
+        <entry file="file://$PROJECT_DIR$/source/Login_test_codex.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="100" column="25" selection-start-line="100" selection-start-column="8" selection-end-line="100" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-                <marker date="1534791418459" expanded="true" signature="6095:6104" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/create_survey_page.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="69" column="54" selection-start-line="69" selection-start-column="54" selection-end-line="69" selection-end-column="54" />
-              <folding>
-                <marker date="1534792079558" expanded="true" signature="1701:1714" ph="..." />
-              </folding>
+            <state relative-caret-position="15">
+              <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -110,8 +113,82 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/design_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-28">
-              <caret line="85" column="76" selection-start-line="85" selection-start-column="76" selection-end-line="85" selection-end-column="76" />
+            <state relative-caret-position="-753">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+                <marker date="1534962476696" expanded="true" signature="210:215" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests_Cases/pytest_test_cases/test_create_survey.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-17">
+              <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests_Cases/pytest_test_cases/test_login.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-152">
+              <caret line="17" column="63" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests_Cases/pytest_test_cases/test_signout.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+                <marker date="1534962063921" expanded="true" signature="219:225" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests_Cases/hybrid_test_case/test_Suite.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests_Cases/conftest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/dash_board_page.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6">
+              <caret line="20" column="87" selection-start-line="20" selection-start-column="87" selection-end-line="20" selection-end-column="87" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -120,31 +197,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/base/BasePage.py">
+        <entry file="file://$PROJECT_DIR$/tests_Cases/hybrid_test_case/test_create_survey.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="122" column="72" selection-start-line="122" selection-start-column="60" selection-end-line="122" selection-end-column="72" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/Login_test_codex.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests_Cases/test_create_survey.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+            <state relative-caret-position="13">
+              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -153,22 +209,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests_Cases/test_login.py">
+        <entry file="file://$PROJECT_DIR$/tests_Cases/hybrid_test_case/test_login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-313">
-              <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+            <state>
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/login_page.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-137">
-              <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -183,62 +229,36 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Sanjay Singh Panwar" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Pages/Home/SignUpPage.py" />
-        <option value="$PROJECT_DIR$/Pages/Home/CreateSurveyPage.py" />
-        <option value="$PROJECT_DIR$/tests_Cases/Home/Login_tests.py" />
-        <option value="$PROJECT_DIR$/base/SeleniumDriver.py" />
-        <option value="$PROJECT_DIR$/tests_Cases/test_suite.py" />
-        <option value="$PROJECT_DIR$/Pages/CreateSurveyPage.py" />
-        <option value="$PROJECT_DIR$/Pages/SignUpPage.py" />
-        <option value="$PROJECT_DIR$/tests_Cases/Test_Suite.py" />
-        <option value="$PROJECT_DIR$/Trash/chrome_test.py" />
-        <option value="$PROJECT_DIR$/tests_Cases/SignOutTest.py" />
-        <option value="$PROJECT_DIR$/tests_Cases/Login_tests.py" />
-        <option value="$PROJECT_DIR$/Trash/pytest/test_pro2.py" />
-        <option value="$PROJECT_DIR$/Trash/pytest/test_pro3_Ordering.py" />
-        <option value="$PROJECT_DIR$/Trash/pytest/test_pro1.py" />
-        <option value="$PROJECT_DIR$/Trash/pytest/conftest.py" />
-        <option value="$PROJECT_DIR$/Trash/pytest/data_class.py" />
-        <option value="$PROJECT_DIR$/Trash/pytest/test_add_method.py" />
-        <option value="$PROJECT_DIR$/tests_Cases/bvt_test_cases/conftest.py" />
-        <option value="$PROJECT_DIR$/tests_Cases/bvt_test_cases/test_login.py" />
-        <option value="$PROJECT_DIR$/Trash/pytest/sample.py" />
-        <option value="$PROJECT_DIR$/Trash/Sapmle2.py" />
-        <option value="$PROJECT_DIR$/Pages/LoginPage.py" />
-        <option value="$PROJECT_DIR$/Pages/DashBoard.py" />
-        <option value="$PROJECT_DIR$/trash/data.csv" />
-        <option value="$PROJECT_DIR$/trash/pytest/people.csv" />
-        <option value="$PROJECT_DIR$/trash/data_driven.py" />
-        <option value="$PROJECT_DIR$/utillities/read_Data.py" />
-        <option value="$PROJECT_DIR$/tests_Cases/Login_with_csvData_test.py" />
-        <option value="$PROJECT_DIR$/source/baseURL's.csv" />
-        <option value="$PROJECT_DIR$/trash/pytest/json_pro2_read.py" />
-        <option value="$PROJECT_DIR$/trash/json_pro2_read.py" />
-        <option value="$PROJECT_DIR$/utillities/read_csv_data.py" />
-        <option value="$PROJECT_DIR$/source/Login_test_codex.csv" />
-        <option value="$PROJECT_DIR$/trash/json_pro1.py" />
-        <option value="$PROJECT_DIR$/pages/DashBoard.py" />
-        <option value="$PROJECT_DIR$/tests_Cases/Login_test.py" />
-        <option value="$PROJECT_DIR$/pages/SignUpPage.py" />
-        <option value="$PROJECT_DIR$/tests_Cases/SignOut_test.py" />
-        <option value="$PROJECT_DIR$/pages/LoginPage.py" />
-        <option value="$PROJECT_DIR$/trash/Sapmle2.py" />
-        <option value="$PROJECT_DIR$/pages/CreateSurveyPage.py" />
-        <option value="$PROJECT_DIR$/pages/signup_page.py" />
-        <option value="$PROJECT_DIR$/pages/login_page.py" />
-        <option value="$PROJECT_DIR$/tests_Cases/test_login.py" />
-        <option value="$PROJECT_DIR$/tests_Cases/test_signout.py" />
-        <option value="$PROJECT_DIR$/tests_Cases/conftest.py" />
-        <option value="$PROJECT_DIR$/trash/sample/survey.py" />
-        <option value="$PROJECT_DIR$/base/BasePage.py" />
-        <option value="$PROJECT_DIR$/pages/create_survey_page.py" />
-        <option value="$PROJECT_DIR$/pages/design_page.py" />
         <option value="$PROJECT_DIR$/tests_Cases/test_create_survey.py" />
+        <option value="$PROJECT_DIR$/tests_Cases/test_Suite.py" />
+        <option value="$PROJECT_DIR$/base/BasePage.py" />
+        <option value="$PROJECT_DIR$/tests_Cases/ex.py" />
+        <option value="$PROJECT_DIR$/tests_Cases/test_ex.py" />
+        <option value="$PROJECT_DIR$/tests_Cases/test_signout.py" />
+        <option value="$PROJECT_DIR$/utillities/custom_logger.py" />
+        <option value="$PROJECT_DIR$/pages/create_survey_page.py" />
+        <option value="$PROJECT_DIR$/pages/login_page.py" />
+        <option value="$PROJECT_DIR$/pages/signup_page.py" />
+        <option value="$PROJECT_DIR$/base/webdriver_page.py" />
+        <option value="$PROJECT_DIR$/tests_Cases/hybrid_test_case/test_create_survey.py" />
+        <option value="$PROJECT_DIR$/tests_Cases/hybrid_test_case/test_Suite.py" />
+        <option value="$PROJECT_DIR$/tests_Cases/conftest.py" />
+        <option value="$PROJECT_DIR$/source/Login_test_codex.csv" />
+        <option value="$PROJECT_DIR$/tests_Cases/pytest_test_cases/test_create_survey.py" />
+        <option value="$PROJECT_DIR$/tests_Cases/pytest_test_cases/test_login.py" />
+        <option value="$PROJECT_DIR$/tests_Cases/pytest_test_cases/test_signout.py" />
+        <option value="$PROJECT_DIR$/pages/design_page.py" />
+        <option value="$PROJECT_DIR$/pages/dash_board_page.py" />
       </list>
     </option>
   </component>
@@ -253,7 +273,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -264,7 +283,7 @@
             <path>
               <item name="SurveyMonkey" type="b2602c69:ProjectViewProjectNode" />
               <item name="SurveyMonkey" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SurveyMonkey" type="b2602c69:ProjectViewProjectNode" />
@@ -275,23 +294,16 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-  </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Trash/pytest" />
-      <recent name="$PROJECT_DIR$/Trash/pytest/.pytest_cache" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/trash" />
-      <recent name="$PROJECT_DIR$/trash/pytest" />
-      <recent name="C:\Users\Sanjay.Panwar\PycharmProjects\SurveyMonkey\Pages" />
-      <recent name="C:\Users\Sanjay.Panwar\PycharmProjects\SurveyMonkey\tests_Cases" />
+      <recent name="$PROJECT_DIR$/tests_Cases" />
+      <recent name="$PROJECT_DIR$/tests_Cases/pytest_test_cases" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests_Cases/hybrid_test_case" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -306,358 +318,72 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test_create_survey">
-    <configuration name="Login_tests" type="PythonConfigurationType" factoryName="Python">
-      <module name="SurveyMonkey" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests_Cases" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests_Cases/test_login.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Sample2" type="PythonConfigurationType" factoryName="Python">
-      <module name="SurveyMonkey" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/../venv/bin/python3.7" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Trash" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Trash/Sapmle2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="chrome_test" type="PythonConfigurationType" factoryName="Python">
-      <module name="SurveyMonkey" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/../venv/bin/python3.7" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Trash" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Trash/chrome_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="data_driven" type="PythonConfigurationType" factoryName="Python">
-      <module name="SurveyMonkey" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/../venv/bin/python3.7" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/trash" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/trash/data_driven.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="json_pro1" type="PythonConfigurationType" factoryName="Python">
-      <module name="SurveyMonkey" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/../venv/bin/python3.7" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/trash" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/trash/json_pro1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="json_pro2_read" type="PythonConfigurationType" factoryName="Python">
-      <module name="SurveyMonkey" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/../venv/bin/python3.7" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/trash" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/trash/json_pro2_read.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="survey" type="PythonConfigurationType" factoryName="Python">
-      <module name="SurveyMonkey" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/../venv/bin/python3.7" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/trash/sample" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/trash/sample/survey.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test_create_survey" type="PythonConfigurationType" factoryName="Python">
-      <module name="SurveyMonkey" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/../venv/bin/python3.7" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests_Cases" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests_Cases/test_create_survey.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test_suite" type="PythonConfigurationType" factoryName="Python">
-      <module name="SurveyMonkey" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\Sanjay.Panwar\PycharmProjects\SurveyMonkey\venv\Scripts\pythonw.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests_Cases" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests_Cases/test_suite.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_login.Login_Test" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="SurveyMonkey" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests_Cases/bvt_test_cases" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_login.Login_Test&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for tests_Cases.test_signout.SignOutTests" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="SurveyMonkey" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests_Cases" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests_Cases.test_signout.SignOutTests&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for tests_Cases.test_signout.SignOutTests" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="SurveyMonkey" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests_Cases" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_pattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests_Cases.test_signout.SignOutTests&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests in test_signout.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="SurveyMonkey" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests_Cases" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests_Cases/test_signout.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="Python.Sample2" />
-      <item itemvalue="Python.survey" />
-      <item itemvalue="Python.test_create_survey" />
-      <item itemvalue="Python.json_pro1" />
-      <item itemvalue="Python.json_pro2_read" />
-      <item itemvalue="Python.data_driven" />
-      <item itemvalue="Python.test_suite" />
-      <item itemvalue="Python.chrome_test" />
-      <item itemvalue="Python.Login_tests" />
-      <item itemvalue="Python tests.Unittests in test_signout.py" />
-      <item itemvalue="Python tests.Unittests for test_login.Login_Test" />
-      <item itemvalue="Python tests.Unittests for tests_Cases.test_signout.SignOutTests" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python tests.Unittests for tests_Cases.test_signout.SignOutTests" />
-        <item itemvalue="Python tests.Unittests in test_signout.py" />
-        <item itemvalue="Python tests.Unittests for tests_Cases.test_signout.SignOutTests" />
-        <item itemvalue="Python tests.Unittests for test_login.Login_Test" />
-      </list>
-    </recent_temporary>
-  </component>
-  <component name="StructureViewFactory">
-    <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
-    <option name="ACTIVE_ACTIONS" value=",SHOW_INHERITED" />
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="817e0bad-a1ef-464d-a57f-096044962e22" name="Default" comment="" />
+      <changelist id="6420357b-166b-4b54-b8c3-9f6cf7b97c9a" name="Default Changelist" comment="" />
       <created>1530982126393</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1530982126393</updated>
     </task>
-    <task id="LOCAL-00001" summary="update send_key method name">
-      <created>1534786071714</created>
+    <task id="LOCAL-00001" summary="update method name">
+      <created>1534923644864</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1534786071714</updated>
+      <updated>1534923644864</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updated test_Suite class">
+      <created>1534927546310</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1534927546310</updated>
+    </task>
+    <task id="LOCAL-00003" summary="created hybrid repository for hybrid test cases(unittest and pytest)">
+      <created>1534946698334</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1534946698334</updated>
+    </task>
+    <task id="LOCAL-00004" summary="created Pytest repository for pytest testcases">
+      <created>1534946741978</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1534946741978</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Test Result for HTML report format">
+      <created>1534946836313</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1534946836313</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="Unittests_for_SignOutTest_SignOutTests - 2018.07.31 at 16h 19m 34s.xml">
-      <configuration name="Unittests for SignOutTest.SignOutTests" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_SignOutTest_SignOutTests - 2018.07.31 at 16h 21m 48s.xml">
-      <configuration name="Unittests for SignOutTest.SignOutTests" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_SignOutTest_SignOutTests - 2018.07.31 at 16h 22m 02s.xml">
-      <configuration name="Unittests for SignOutTest.SignOutTests" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_SignOutTest_py - 2018.07.31 at 16h 32m 49s.xml">
-      <configuration name="Unittests in SignOutTest.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_login_Login_Test - 2018.08.01 at 14h 48m 51s.xml">
-      <configuration name="Unittests for test_login.Login_Test" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_SignOutTest_py - 2018.08.01 at 14h 51m 27s.xml">
-      <configuration name="Unittests in SignOutTest.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_SignOutTest_SignOutTests - 2018.08.01 at 14h 52m 22s.xml">
-      <configuration name="Unittests for SignOutTest.SignOutTests" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_SignOutTest_SignOutTests_test_SignOut_Case - 2018.08.01 at 14h 55m 52s.xml">
-      <configuration name="Unittests for SignOutTest.SignOutTests.test_SignOut_Case" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_SignOutTest_py - 2018.08.01 at 15h 06m 56s.xml">
-      <configuration name="Unittests in SignOutTest.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_SignOutTest_SignOutTests_test_SignOut_Case - 2018.08.01 at 15h 08m 48s.xml">
-      <configuration name="Unittests for SignOutTest.SignOutTests.test_SignOut_Case" configurationId="tests" />
-    </history-entry>
-  </component>
-  <component name="TodoView" selected-index="2">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="728" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7835294" visible="true" weight="0.2359015" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7835294" weight="0.2359015" />
       <window_info id="Structure" order="1" sideWeight="0.21647058" side_tool="true" weight="0.2359015" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32861635" />
-      <window_info anchor="bottom" x="125" y="258" width="1110" height="420" id="Run" order="2" sideWeight="0.6791104" weight="0.004716981" />
+      <window_info anchor="bottom" x="125" y="258" width="1110" height="420" id="Run" order="2" sideWeight="0.6791104" weight="0.4072327" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39937106" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4988086" weight="0.12578617" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50913423" side_tool="true" weight="0.32539684" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49086577" visible="true" weight="0.32861635" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49086577" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49483716" weight="0.3254717" />
       <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -670,14 +396,14 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32861635" />
-      <window_info anchor="bottom" x="125" y="258" width="1110" height="420" id="Run" order="2" sideWeight="0.6791104" weight="0.38050315" />
+      <window_info anchor="bottom" x="125" y="258" width="1110" height="420" id="Run" order="2" sideWeight="0.6791104" weight="0.4072327" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39937106" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4988086" weight="0.12578617" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50913423" side_tool="true" weight="0.32539684" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49086577" visible="true" weight="0.1273585" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49086577" visible="true" weight="0.10377359" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49483716" weight="0.3254717" />
       <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -689,263 +415,121 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update send_key method name" />
-    <option name="LAST_COMMIT_MESSAGE" value="update send_key method name" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/trash/pytest/sample.py</url>
-          <line>25</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-      </breakpoints>
-      <breakpoints-dialog>
-        <breakpoints-dialog />
-      </breakpoints-dialog>
-    </breakpoint-manager>
+    <MESSAGE value="Updated test_Suite class" />
+    <MESSAGE value="created hybrid repository for hybrid test cases(unittest and pytest)" />
+    <MESSAGE value="created Pytest repository for pytest testcases" />
+    <MESSAGE value="Test Result for HTML report format" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test Result for HTML report format" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Pages/Home.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/unittest/case.py" />
-    <entry file="file://$PROJECT_DIR$/Trash/pytest/.pytest_cache/test_pro2.py" />
-    <entry file="file://$PROJECT_DIR$/trash/pytest/test_pro3_Ordering.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="36" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trash/pytest/test_pro1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/_jb_unittest_runner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trash/chrome_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trash/pytest/test_pro2_Ordering.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests_Cases/bvt_test_cases/test_login.py" />
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="1067" selection-start-line="1067" selection-end-line="1067" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trash/pytest/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests_Cases/bvt_test_cases/conftest.py" />
-    <entry file="file://$PROJECT_DIR$/source/__init__.py">
+    <entry file="file://$PROJECT_DIR$/configfiles/question_config.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/trash/people.csv">
+    <entry file="file://$PROJECT_DIR$/base/BasePage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state>
+          <caret column="38" selection-start-column="38" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trash/data.csv">
+    <entry file="file://$PROJECT_DIR$/tests_Cases/pytest_test_cases/test_Suite.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="61" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests_Cases/Login_with_csvData_test.py" />
-    <entry file="file://$PROJECT_DIR$/source/baseURL's.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/setuptools.pth">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utillities/read_csv_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trash/data_driven.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trash/json_pro2_read.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trash/json_pro1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trash/data_json.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests_Cases/assets/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1650" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trash/pytest/sample.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <marker date="1533281431000" expanded="true" signature="78:83" ph="..." />
-            <marker date="1533281431000" expanded="true" signature="176:181" ph="..." />
-            <marker date="1533281431000" expanded="true" signature="328:333" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trash/pytest/data_class.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trash/pytest/test_add_method.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests_Cases/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trash/Sapmle2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="14" lean-forward="true" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../venv/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1093">
-          <caret line="241" selection-start-line="241" selection-end-line="241" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../venv/lib/python3.7/site-packages/selenium/webdriver/support/expected_conditions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/signup_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" column="42" lean-forward="true" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/dash_board_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="45" column="44" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests_Cases/test_Suite.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="63" lean-forward="true" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
+        <state relative-caret-position="120">
+          <caret line="8" column="62" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="62" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trash/sample/survey.py">
+    <entry file="file://$PROJECT_DIR$/tests_Cases/test_ex.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="100" column="25" selection-start-line="100" selection-start-column="8" selection-end-line="100" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-            <marker date="1534791418459" expanded="true" signature="6095:6104" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/login_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-137">
-          <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests_Cases/test_signout.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+        <state relative-caret-position="38">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests_Cases/test_login.py">
+    <entry file="file://$PROJECT_DIR$/tests_Cases/hybrid_test_case/conftest.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utillities/custom_logger.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-313">
-          <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/create_survey_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="59" column="11" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+            <marker date="1534961442659" expanded="true" signature="1683:1692" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/login_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/signup_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="42" column="8" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/webdriver_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+            <marker date="1534961442842" expanded="true" signature="474:476" ph="..." />
+            <marker date="1534961442842" expanded="true" signature="480:517" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests_Cases/hybrid_test_case/test_signout.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests_Cases/hybrid_test_case/test_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests_Cases/hybrid_test_case/test_create_survey.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
@@ -955,46 +539,78 @@
     <entry file="file://$PROJECT_DIR$/source/Login_test_codex.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+          <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/create_survey_page.py">
+    <entry file="file://$PROJECT_DIR$/tests_Cases/pytest_test_cases/test_login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="69" column="54" selection-start-line="69" selection-start-column="54" selection-end-line="69" selection-end-column="54" />
+        <state relative-caret-position="-152">
+          <caret line="17" column="63" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
           <folding>
-            <marker date="1534792079558" expanded="true" signature="1701:1714" ph="..." />
+            <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/base/BasePage.py">
+    <entry file="file://$PROJECT_DIR$/tests_Cases/pytest_test_cases/test_create_survey.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="122" column="72" selection-start-line="122" selection-start-column="60" selection-end-line="122" selection-end-column="72" />
+        <state relative-caret-position="-17">
+          <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
           <folding>
-            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/design_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28">
-          <caret line="85" column="76" selection-start-line="85" selection-start-column="76" selection-end-line="85" selection-end-column="76" />
+        <state relative-caret-position="-753">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+            <marker date="1534962476696" expanded="true" signature="210:215" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/dash_board_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6">
+          <caret line="20" column="87" selection-start-line="20" selection-start-column="87" selection-end-line="20" selection-end-column="87" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests_Cases/test_create_survey.py">
+    <entry file="file://$PROJECT_DIR$/tests_Cases/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+        <state relative-caret-position="196">
+          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
           <folding>
-            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests_Cases/hybrid_test_case/test_Suite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests_Cases/pytest_test_cases/test_signout.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+            <marker date="1534962063921" expanded="true" signature="219:225" ph="..." />
           </folding>
         </state>
       </provider>
