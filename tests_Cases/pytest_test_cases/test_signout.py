@@ -13,7 +13,7 @@ class TestSignOut():
        self.Dash_p = DashBoard(self.driver)
 
     @pytest.mark.slow
-    def test_sign_out_case(self, username = "qa.user", password = "Pass_123"):
+    def test_sign_out_case(self, username = "snjsingh", password = "Pass_123"):
         c_url = self.log_p.get_current_url()
         self.log_p.user_login(username, password)
         self.Dash_p.signout_account()

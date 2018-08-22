@@ -15,7 +15,7 @@ class TestsLogin():
         self.lp.click_on_url(c_url)
 
     @pytest.mark.run(order=4)
-    def test_valid_user_credentials(self, user_name = "qa.user", password = "Pass_123"):
+    def test_valid_user_credentials(self, user_name = "snjsingh", password = "Pass_123"):
         c_url = self.lp.get_current_url()
         self.lp.user_login(user_name, password)
         log_result = self.lp.verify_login()

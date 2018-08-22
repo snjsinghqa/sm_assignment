@@ -5,12 +5,11 @@ from pages.design_page import SurveyDesignPage
 from pages.dash_board_page import DashBoard
 import pytest
 import time
-from utillities.read_csv_data import getCSVData
 # import pdb
 
 
 @pytest.mark.usefixtures("setup", "one_time_setup")
-class TestCreateSurvey():
+class TestCreateSurvey:
 
     @pytest.fixture(autouse=True)
     def class_setup(self, one_time_setup):
@@ -20,7 +19,7 @@ class TestCreateSurvey():
         self.dash_p = DashBoard(self.driver)
 
     @pytest.mark.run(order=4)
-    def test_create_survey(self, user_name = "qa.user", password = "Pass_123"):
+    def test_create_survey(self, user_name = "snjsingh", password = "Pass_123"):
         self.log_p.user_login(user_name, password)
         self.c_survey_p.create_survey("Demo", "Other")
         time.sleep(8)
