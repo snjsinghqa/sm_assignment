@@ -152,7 +152,6 @@ class SurveyDesignPage(BasePage):
 
     def add_field_type(self, field_type = "text_box"):
         self.click_change_fieldtype()
-
         if field_type == "text_box":
             self.click_single_text_opt()
         elif field_type == "drop_down":
@@ -178,8 +177,8 @@ class SurveyDesignPage(BasePage):
 
     def add_question_with_single_text_option(self, question_title):
         self.set_question(question_title)
-        self.add_field_type("text_box")
         time.sleep(2)
+        self.add_field_type("text_box")
         self.click_add_new_question()
 
     def add_question_with_dropdown_option(self, question_title, *args):
