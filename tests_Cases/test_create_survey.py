@@ -13,7 +13,7 @@ from utillities.read_csv_data import getCSVData
 
 @pytest.mark.usefixtures("setup", "one_time_setup")
 @ddt
-class LoginTests(unittest.TestCase):
+class CreateSurvey(unittest.TestCase):
 
     @pytest.fixture(autouse=True)
     def class_setup(self, one_time_setup):
