@@ -1,4 +1,4 @@
-from selenium import webdriver
+# from selenium import webdriver
 from selenium.webdriver.common.by import By
 from traceback import print_stack
 from selenium.webdriver.common.keys import Keys
@@ -10,7 +10,7 @@ import utillities.custom_logger as cl
 import logging
 
 
-class WebDriver():
+class WebDriver:
 
     log = cl.customLogger(logging.DEBUG)
 
@@ -35,7 +35,7 @@ class WebDriver():
             self.log.info("Locator type " + locatortype + " not correct/supported")
         return False
 
-    def get_element(self, locator, locator_type = "id"):
+    def get_element(self, locator, locator_type="id"):
         element = None
         try:
             locatortype = locator_type.lower()
@@ -46,10 +46,9 @@ class WebDriver():
             self.log.info("Element not found")
         return element
 
-    def element_click(self, locator, locator_type = "id"):
+    def element_click(self, locator, locator_type="id"):
         try:
             element = self.wait_until_element_to_be_clickable(locator, locator_type)
-            # element = self.get_element(locator, locator_type)
             element.click()
             self.log.info("Clicked on element with locator: " + locator +
                           " locatorType: " + locator_type)
@@ -58,7 +57,7 @@ class WebDriver():
                           " locatorType: " + locator_type)
             print_stack()
 
-    def set_send_keys(self, data, locator, locator_type = "id"):
+    def set_send_keys(self, data, locator, locator_type="id"):
         try:
             element = self.wait_until_element_located(locator, locator_type)
             # element = self.get_element(locator, locator_type)
@@ -73,7 +72,7 @@ class WebDriver():
     def get_title(self):
         return self.driver.title
 
-    def is_elementpresent(self, locator, locator_type = "id"):
+    def is_elementpresent(self, locator, locator_type="id"):
         try:
             element = self.get_element(locator, locator_type)
             if element is not None:
@@ -88,7 +87,7 @@ class WebDriver():
             self.log.info("Element not found")
             return False
 
-    def is_elements_presence_check(self, locator, locator_type = "id"):
+    def is_elements_presence_check(self, locator, locator_type="id"):
         try:
             element_list = self.get_element(locator_type, locator)
             if len(element_list) > 0:
@@ -118,7 +117,7 @@ class WebDriver():
             self.log.info("Element is not present with locator: " + locator +
                           " locatorType: " + locator_type)
 
-    def wait_until_element_to_be_clickable(self, locator, locator_type = 'id'):
+    def wait_until_element_to_be_clickable(self, locator, locator_type='id'):
         try:
             wait = WebDriverWait(self.driver, 30)
             element = wait.until(EC.element_to_be_clickable((locator_type, locator)))
@@ -129,7 +128,7 @@ class WebDriver():
             self.log.info("Element is not present with locator: " + locator +
                           " locatorType: " + locator_type)
 
-    def wait_until_element_located(self, locator, locator_type = 'id'):
+    def wait_until_element_located(self, locator, locator_type='id'):
         try:
             wait = WebDriverWait(self.driver, 30)
             element = wait.until(EC.presence_of_element_located((locator_type, locator)))
@@ -140,7 +139,7 @@ class WebDriver():
             self.log.info("Element is not present with locator: " + locator +
                           " locatorType: " + locator_type)
 
-    def set_dropdown_value(self,input_data, locator, locator_type = 'id'):
+    def set_dropdown_value(self,input_data, locator, locator_type='id'):
         try:
             ac = ActionChains(self.driver)
             ac.click(self.get_element(locator, locator_type)).send_keys(input_data, Keys.RETURN).perform()
@@ -150,7 +149,7 @@ class WebDriver():
             self.log.info("Element is not present with locator: " + locator +
                           " locatorType: " + locator_type)
 
-    def select_value_by_index(self, index_number, locator, locator_type = 'id'):
+    def select_value_by_index(self, index_number, locator, locator_type='id'):
         try:
             element = Select(self.get_element(locator, locator_type))
             element.select_by_index(index_number)
@@ -160,7 +159,7 @@ class WebDriver():
             self.log.info("Element is not present with locator: " + locator +
                           " locatorType: " + locator_type)
 
-    def select_by_value(self, value_name, locator, locator_type = 'id'):
+    def select_by_value(self, value_name, locator, locator_type='id'):
         try:
             element = Select(self.get_element(locator, locator_type))
             element.select_by_value(value_name)
@@ -170,7 +169,7 @@ class WebDriver():
             self.log.info("Element is not present with locator: " + locator +
                           " locatorType: " + locator_type)
 
-    def select_by_visible_text(self, visible_text, locator, locator_type = 'id'):
+    def select_by_visible_text(self, visible_text, locator, locator_type='id'):
         try:
             element = Select(self.wait_until_element_located(locator, locator_type))
             element.select_by_visible_text(visible_text)
@@ -180,7 +179,7 @@ class WebDriver():
             self.log.info("Element is not present with locator: " + locator +
                           " locatorType: " + locator_type)
 
-    def set_inputvalue_by_action(self, input_data, locator, locator_type = 'id'):
+    def set_inputvalue_by_action(self, input_data, locator, locator_type='id'):
         try:
             ac = ActionChains(self.driver)
             ac.move_to_element(self.wait_until_element_located(locator, locator_type)).send_keys(input_data)
@@ -190,7 +189,7 @@ class WebDriver():
             self.log.info("Element is not present with locator: " + locator +
                           " locatorType: " + locator_type)
 
-    def hover_on_element(self, locator, locator_type = 'id'):
+    def hover_on_element(self, locator, locator_type='id'):
         try:
             ac = ActionChains(self.driver)
             ac.move_to_element(self.wait_until_element_located(locator, locator_type)).perform()
@@ -200,12 +199,12 @@ class WebDriver():
             self.log.info("Element is not present with locator: " + locator +
                           " locatorType: " + locator_type)
 
-    def set_multi_options(self, input_data, locator, locator_type = 'id'):
+    def set_multi_options(self, input_data, locator, locator_type='id'):
         try:
             ac = ActionChains(self.driver)
             ac.click(self.get_element(locator, locator_type)).send_keys(input_data, Keys.TAB).perform()
             self.log.info("Element is present with locator: " + locator +
-                      " locatorType: " + locator_type)
+                          " locatorType: " + locator_type)
         except:
             self.log.info("Element is present with locator: " + locator +
                           " locatorType: " + locator_type)
