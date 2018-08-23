@@ -10,7 +10,7 @@ import utillities.custom_logger as cl
 import logging
 
 
-class SeleniumDriver():
+class WebDriver():
 
     log = cl.customLogger(logging.DEBUG)
 

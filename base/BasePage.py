@@ -1,7 +1,7 @@
-from base.webdriver_page import SeleniumDriver
+from base.webdriver_page import WebDriver
 
 
-class BasePage(SeleniumDriver):
+class BasePage(WebDriver):
 
     def __init__(self, driver):
         self.driver = driver

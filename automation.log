@@ -2859,3 +2859,17 @@
 08/23/2018 01:41:03 AM - SurveyDesignPage - INFO: Clicked on element with locator: //div[@id='editQuestionContent']/following-sibling::div/div/div/a[contains(text(),'NEXT QUESTION')] locatorType: xpath
 08/23/2018 01:41:03 AM - SurveyDesignPage - INFO: Element is present with locator: previewSurvey locatorType: id
 08/23/2018 01:41:15 AM - SurveyDesignPage - INFO: Clicked on element with locator: previewSurvey locatorType: id
+08/23/2018 12:37:39 PM - LoginPage - INFO: Element is present with locator: //li/a[contains(text(),'LOG IN')] locatorType: xpath
+08/23/2018 12:37:43 PM - LoginPage - INFO: Clicked on element with locator: //li/a[contains(text(),'LOG IN')] locatorType: xpath
+08/23/2018 12:37:43 PM - LoginPage - INFO: Element is present with locator: username locatorType: id
+08/23/2018 12:37:44 PM - LoginPage - INFO: Send data on element with locator: username locatorType: id
+08/23/2018 12:37:44 PM - LoginPage - INFO: Element is present with locator: password locatorType: id
+08/23/2018 12:37:44 PM - LoginPage - INFO: Send data on element with locator: password locatorType: id
+08/23/2018 12:37:44 PM - LoginPage - INFO: Element is present with locator: //button[contains(text(),'LOG IN')] locatorType: xpath
+08/23/2018 12:37:49 PM - LoginPage - INFO: Clicked on element with locator: //button[contains(text(),'LOG IN')] locatorType: xpath
+08/23/2018 12:37:49 PM - DashBoard - INFO: Element is present with locator: userAcctTab_MainMenu locatorType: id
+08/23/2018 12:37:49 PM - DashBoard - INFO: Clicked on element with locator: userAcctTab_MainMenu locatorType: id
+08/23/2018 12:37:49 PM - DashBoard - INFO: Element is present with locator: //div[@class='content-wrapper']//ul[@class='nav-submenu']//li[4] locatorType: xpath
+08/23/2018 12:37:54 PM - DashBoard - INFO: Clicked on element with locator: //div[@class='content-wrapper']//ul[@class='nav-submenu']//li[4] locatorType: xpath
+08/23/2018 12:37:54 PM - DashBoard - INFO: Element Found
+08/23/2018 12:37:54 PM - DashBoard - INFO: Element is present with locator: //li/a[contains(text(),'LOG IN')] locatorType: xpath
