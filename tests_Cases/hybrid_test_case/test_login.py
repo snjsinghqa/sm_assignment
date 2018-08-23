@@ -3,6 +3,7 @@ import unittest
 import pytest
 from ddt import ddt, data, unpack
 from utillities.read_csv_data import getCSVData
+from source.data.user_conf import *
 # import pdb
 
 
@@ -28,28 +29,22 @@ class LoginTests(unittest.TestCase):
         self.lp.click_on_url(c_url)
 
     @pytest.mark.run(order=1)
-    @data(("mohit", "Pass_123"))
-    @unpack
-    def test_invalid_user_credentials(self, user_name, password):
+    def test_invalid_user_credentials(self):
 
-        self.lp.user_login(user_name, password)
+        self.lp.user_login(invalid_username, invalid_password)
         log_result = self.lp.verify_loginfail_error()
         assert log_result == True
 
     @pytest.mark.run(order=2)
-    @data((None, "Pass_123"))
-    @unpack
-    def test_LoginWithOutUsername(self, user_name, password):
+    def test_LoginWithOutUsername(self):
 
-        self.lp.user_login(user_name, password)
+        self.lp.user_login(None, valid_password)
         log_result = self.lp.verify_username_error()
         assert log_result == True
 
     @pytest.mark.run(order=3)
-    @data(("qa.user", None))
-    @unpack
-    def test_login_without_password(self, user_name, password):
-        self.lp.user_login(user_name, password)
+    def test_login_without_password(self):
+        self.lp.user_login(valid_username, None)
         # pdb.set_trace()
         log_result = self.lp.verify_password_error()
         assert log_result == True

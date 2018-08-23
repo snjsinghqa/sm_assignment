@@ -1,13 +1,14 @@
 from pages.login_page import LoginPage
-from configfiles.question_config import *
+from source.data.question_config import *
 from pages.create_survey_page import CreateSurveyPage
 from pages.design_page import SurveyDesignPage
 from pages.dash_board_page import DashBoard
 import unittest
 import pytest
-import time
 from ddt import ddt, data, unpack
 from utillities.read_csv_data import getCSVData
+from source.data.survey_title_category_config import *
+from flaky import flaky
 # import pdb
 
 
@@ -22,14 +23,13 @@ class CreateSurveyTest(unittest.TestCase):
         self.c_survey_design = SurveyDesignPage(self.driver)
         self.dash_p = DashBoard(self.driver)
 
-    @pytest.mark.run(order=4)
+    @flaky
+    @pytest.mark.run(order=1)
     @data(*getCSVData("/Users/Documents/PycharmProjects/SurveyMonkey/source/Login_test_codex.csv"))
     @unpack
     def test_create_survey(self, user_name, password):
         self.log_p.user_login(user_name, password)
-        self.c_survey_p.create_survey("Demo", "Other")
-        time.sleep(8)
-        # self.c_survey_design.edit_survey_title("New demo", "Events")
+        self.c_survey_p.create_survey(survey_title, survey_category)
         self.c_survey_design.add_question_with_single_text_option(question1)
         self.c_survey_design.add_question_with_dropdown_option(question2, q2_value1, q2_value2, q2_value3)
         self.c_survey_design.add_question_with_date_option(question3)
@@ -43,3 +43,19 @@ class CreateSurveyTest(unittest.TestCase):
         self.c_survey_design.add_question_with_radio_option(question9, q9_visible_text)
         self.c_survey_design.add_question_with_text_area_option(question10)
         self.c_survey_design.previewsurvey()
+
+    @flaky
+    @data(*getCSVData("/Users/Documents/PycharmProjects/SurveyMonkey/source/Login_test_codex.csv"))
+    @unpack
+    def test_edit_survey_title(self, user_name, password):
+        self.log_p.user_login(user_name, password)
+        self.c_survey_p.create_survey(survey_title, survey_category)
+        self.c_survey_design.edit_survey_title(new_survey_title)
+
+    @flaky
+    @data(*getCSVData("/Users/Documents/PycharmProjects/SurveyMonkey/source/Login_test_codex.csv"))
+    @unpack
+    def test_edit_survey_category(self, user_name, password):
+        self.log_p.user_login(user_name, password)
+        self.c_survey_p.create_survey(survey_title, survey_category)
+        self.c_survey_design.edit_survey_title(new_survey_category)
