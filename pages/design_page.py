@@ -26,7 +26,7 @@ class SurveyDesignPage(BasePage):
     options = "//li[@title='Options']"
     title_container = "//div[@class = 'survey-title-table-wrapper']"
 
-     # Edit Survey Title ----------------------------
+    # Edit Survey Title ----------------------------
 
     e_survey_title = "surveyTitle"
     e_survey_category = "surveyCategory"
@@ -144,13 +144,17 @@ class SurveyDesignPage(BasePage):
 
     # Actions ----------------------------------------------
 
-    def edit_survey_title(self, survey_title, survey_category):
+    def edit_survey_title(self, survey_title):
         self.click_on_title_container()
         self.set_esurvey_title(survey_title)
+        self.click_on_save_edit_survey_btn()
+
+    def edit_survey_category(self, survey_category):
+        self.click_on_title_container()
         self.set_ecategory(survey_category)
         self.click_on_save_edit_survey_btn()
 
-    def add_field_type(self, field_type = "text_box"):
+    def add_field_type(self, field_type="text_box"):
         self.click_change_fieldtype()
         if field_type == "text_box":
             self.click_single_text_opt()
@@ -176,10 +180,10 @@ class SurveyDesignPage(BasePage):
             print("invalid Field type : "+field_type)
 
     def add_question_with_single_text_option(self, question_title):
-        self.set_question(question_title)
-        time.sleep(2)
         self.add_field_type("text_box")
-        self.click_add_new_question()
+        # self.click_add_new_question()
+        self.set_question(question_title)
+        self.click_add_new_question_in_detail()
 
     def add_question_with_dropdown_option(self, question_title, *args):
         self.set_question(question_title)
@@ -196,7 +200,6 @@ class SurveyDesignPage(BasePage):
     def add_question_with_rating_option(self, question_title):
         self.set_question(question_title)
         self.add_field_type("star_rating")
-        time.sleep(2)
         self.click_add_new_question_in_detail()
 
     def add_question_with_drop_by_selected_vale_option(self, question_title, visible_text):

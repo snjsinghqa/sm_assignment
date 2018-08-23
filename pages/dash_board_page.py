@@ -18,7 +18,7 @@ class DashBoard(BasePage):
     my_account_submenu = "//li[@id='dd-my-account']/ul/li/a[contains(text(),'My Account')]"
     library_submenu = "//li[@id='dd-my-account']/ul/li[2]/a[contains(text(),'Library')]"
     contact_submenu = "//li[@id='dd-my-account']/ul/li[3]/a[contains(text(),'Contacts')]"
-    signout_submenu = "//div[@class='content-wrapper']//ul[@class='nav-submenu']//li[4]"
+    signout_submenu = "//div[@class='content-wrapper']//ul[@class='nav-submenu']//li[5]"
 
     # Survey List-------------------------------------------------
 
