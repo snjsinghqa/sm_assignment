@@ -119,7 +119,7 @@ class WebDriver:
 
     def wait_until_element_to_be_clickable(self, locator, locator_type='id'):
         try:
-            wait = WebDriverWait(self.driver, 30)
+            wait = WebDriverWait(self.driver, 30, poll_frequency=0.5)
             element = wait.until(EC.element_to_be_clickable((locator_type, locator)))
             self.log.info("Element is present with locator: " + locator +
                           " locatorType: " + locator_type)
@@ -130,7 +130,7 @@ class WebDriver:
 
     def wait_until_element_located(self, locator, locator_type='id'):
         try:
-            wait = WebDriverWait(self.driver, 30)
+            wait = WebDriverWait(self.driver, 30, poll_frequency=0.5)
             element = wait.until(EC.presence_of_element_located((locator_type, locator)))
             self.log.info("Element is present with locator: " + locator +
                           " locatorType: " + locator_type)
