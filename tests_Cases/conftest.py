@@ -1,5 +1,6 @@
 import pytest
 from selenium import webdriver
+from source.data.url_config import active_url
 
 
 @pytest.fixture()
@@ -10,18 +11,14 @@ def setup():
 
 
 @pytest.fixture(scope='class')
-def one_time_setup(browser, request):
+def one_time_setup(browser, request, base_url=active_url):
     print("One time class level setup..")
 
     if browser == 'chrome':
-        # base_url = "https://www.monkeytest1.com/"
-        base_url = "https://www.surveymonkey.com/"
         driver_location = '/Users/Documents/PycharmProjects/drivers/chromedriver'
         driver = webdriver.Chrome(driver_location)
         driver.maximize_window()
     else:
-        # base_url = "https://www.monkeytest1.com/"
-        base_url = "https://www.surveymonkey.com/"
         driver_location = '/Users/Documents/PycharmProjects/drivers/chromedriver'
         driver = webdriver.Chrome(driver_location)
         driver.maximize_window()
